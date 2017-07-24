@@ -25,17 +25,15 @@ define({
 	],
 
 	// Maximum number of simultaneous integration tests that should be executed on the remote WebDriver service
-	maxConcurrency: 2,
+	maxConcurrency: 4,
 
 	// Name of the tunnel class to use for WebDriver tests.
 	// See <https://theintern.github.io/intern/#option-tunnel> for built-in options
 	tunnel: 'SauceLabsTunnel',
-    tunnelOptions: {
-        username: 'smallik',
-        accessKey: '61abcac1-9b56-4888-a300-fc23156bba30'
+//    tunnelOptions: {
 //        username: process.env.SAUCE_USERNAME,
 //        accessKey: process.env.SAUCE_ACCESS_KEY
-    },
+//    },
 
 	// Configuration options for the module loader; any AMD configuration options supported by the AMD loader in use
 	// can be used here.
