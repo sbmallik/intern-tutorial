@@ -17,11 +17,11 @@ define({
 	// and platformVersion; any other capabilities options specified for an environment will be copied as-is. Note that
 	// browser and platform names, and version number formats, may differ between cloud testing systems.
 	environments: [
-		{ browserName: 'internet explorer', version: '11', platform: 'WIN10' },
-		{ browserName: 'internet explorer', version: '10', platform: 'WIN8' },
-		{ browserName: 'firefox', version: '37', platform: [ 'WINDOWS', 'MAC' ] },
-		{ browserName: 'chrome', version: '39', platform: [ 'WINDOWS', 'MAC' ] },
-		{ browserName: 'safari', version: '8', platform: 'MAC' }
+//		{ browserName: 'internet explorer', version: '11', platform: 'WIN10' },
+//		{ browserName: 'internet explorer', version: '10', platform: 'WIN8' },
+//		{ browserName: 'firefox', version: '37', platform: [ 'WINDOWS', 'MAC' ] },
+		{ browserName: 'chrome', version: '56', platform: [ 'Windows 10', 'OS X 10.11' ] },
+		{ browserName: 'safari', version: '9', platform: 'OS X 10.11' }
 	],
 
 	// Maximum number of simultaneous integration tests that should be executed on the remote WebDriver service
