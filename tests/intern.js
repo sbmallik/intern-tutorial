@@ -21,7 +21,7 @@ define({
 //		{ browserName: 'internet explorer', version: '10', platform: 'WIN8' },
 //		{ browserName: 'firefox', version: '37', platform: [ 'WINDOWS', 'MAC' ] },
 		{ browserName: 'chrome', version: '56', platform: [ 'Windows 10', 'OS X 10.11' ] },
-		{ browserName: 'safari', version: '9', platform: 'OS X 10.11' }
+//		{ browserName: 'safari', version: '9', platform: 'OS X 10.11' }
 	],
 
 	// Maximum number of simultaneous integration tests that should be executed on the remote WebDriver service
