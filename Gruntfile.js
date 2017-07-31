@@ -12,7 +12,7 @@ module.exports = function (grunt) {
             functionalTest: {
                 options: {
                     runType: "runner",
-                    functionalSuites: "tests/functional/index",
+                    functionalSuites: "tests/functional/usatVideo",
                     config: "tests/intern",
                     sauceUsername: process.env.SAUCE_USERNAME,
                     sauceAccessKey: process.env.SAUCE_ACCESS_KEY
